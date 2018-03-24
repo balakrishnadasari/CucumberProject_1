@@ -26,7 +26,7 @@ public class FaceBookLogin {
 	@When("^I enter valid username and password$")
 	public void I_enter_valid_username_and_password() throws Throwable {
 		driver.findElement(By.id("email")).sendKeys("balakrishna33k@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("Aruna@3935");
+		driver.findElement(By.id("pass")).sendKeys("");
 		driver.findElement(By.xpath("//*[@id='loginbutton']/input")).click();
 		
 		//driver.findElement(By.xpath("//div[@id='userNavigationLabel']"));
