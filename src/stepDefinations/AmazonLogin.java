@@ -10,7 +10,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class FaceBookLogin {
+public class AmazonLogin {
 	
 	WebDriver driver;
 
@@ -18,7 +18,7 @@ public class FaceBookLogin {
 	public void open_firefox_and_start_application() throws Throwable {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.amazon.com");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 	}
