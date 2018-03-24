@@ -17,7 +17,7 @@ public class EmailTrigger {
       // Sender's email ID needs to be mentioned
       String from = "balu54k@gmail.com";//change accordingly
       final String username = "balu54k";//change accordingly
-      final String password = "Aruna@3935";//change accordingly
+      final String password = "";//change accordingly
 
       // Assuming you are sending email through relay.jangosmtp.net
       String host = "smtp.gmail.com";
